@@ -6,6 +6,8 @@ from emploeeDetails import EmployeeDetails
 
 from students import Students,Course
 
+from bigO import cal_bigO, cal_while_bigO
+
 print('hello world ')
 
 
@@ -24,7 +26,11 @@ student1 = Students('kapilesh',27,'A')
 cos = Course('python')
 cos.add_students(student1)
 
-print(cos.get_students()[0].name)
+print(cos.get_students()[0].age)
+
+cal_bigO()
+
+cal_while_bigO()
 
 
 
