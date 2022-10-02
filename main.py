@@ -10,6 +10,8 @@ from bigO import cal_bigO, cal_while_bigO
 
 import dict
 
+import wordGuessGame
+
 print('hello world ')
 
 
@@ -39,6 +41,8 @@ print(dict.profile_details)
 print(dict.profile_details.get('firstname','name not available'))
 
 print(emp.get_name())
+
+wordGuessGame
 
 
 
