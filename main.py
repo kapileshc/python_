@@ -10,6 +10,8 @@ from bigO import cal_bigO, cal_while_bigO
 
 import dict
 
+import filehandling
+
 import wordGuessGame
 
 import error
@@ -44,9 +46,10 @@ print(dict.profile_details.get('firstname','name not available'))
 
 print(emp.get_name())
 
-wordGuessGame
+# wordGuessGame
+#
+# error
 
-error
-
+filehandling
 
 
