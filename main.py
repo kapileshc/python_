@@ -8,6 +8,8 @@ from students import Students,Course
 
 from bigO import cal_bigO, cal_while_bigO
 
+import dict
+
 print('hello world ')
 
 
@@ -33,7 +35,8 @@ cal_bigO()
 cal_while_bigO()
 
 
-
+print(dict.profile_details)
+print(dict.profile_details.get('firstname','name not available'))
 
 print(emp.get_name())
 
