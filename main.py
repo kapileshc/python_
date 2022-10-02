@@ -12,6 +12,8 @@ import dict
 
 import wordGuessGame
 
+import error
+
 print('hello world ')
 
 
@@ -43,6 +45,8 @@ print(dict.profile_details.get('firstname','name not available'))
 print(emp.get_name())
 
 wordGuessGame
+
+error
 
 
 
