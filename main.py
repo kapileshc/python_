@@ -14,6 +14,8 @@ import useful_tools
 
 from Requirements import Requirements
 
+from paymentDetails import paymentDetails
+
 
 import filehandling
 
@@ -67,3 +69,6 @@ requirement1 = Requirements('HRM','2 hr', 5000, 2, 'python')
 print(requirement1.manpower_required)
 print(requirement1.project_name)
 print(requirement1.cost_estimate)
+
+emp1 = paymentDetails()
+print(emp1.generate_payslip())
