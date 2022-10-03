@@ -12,6 +12,9 @@ import dict
 
 import useful_tools
 
+from Requirements import Requirements
+
+
 import filehandling
 
 import wordGuessGame
@@ -59,3 +62,8 @@ print(useful_tools.get_file_extension('index.html'))
 print(useful_tools.roll_dice(100))
 
 
+requirement1 = Requirements('HRM','2 hr', 5000, 2, 'python')
+
+print(requirement1.manpower_required)
+print(requirement1.project_name)
+print(requirement1.cost_estimate)
