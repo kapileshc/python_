@@ -71,4 +71,4 @@ print(requirement1.project_name)
 print(requirement1.cost_estimate)
 
 emp1 = paymentDetails()
-print(emp1.generate_payslip())
+print(emp1.get_passport_details())
