@@ -10,6 +10,8 @@ from bigO import cal_bigO, cal_while_bigO
 
 import dict
 
+import useful_tools
+
 import filehandling
 
 import wordGuessGame
@@ -34,22 +36,26 @@ student1 = Students('kapilesh',27,'A')
 cos = Course('python')
 cos.add_students(student1)
 
-print(cos.get_students()[0].age)
+# print(cos.get_students()[0].age)
 
 cal_bigO()
 
 cal_while_bigO()
 
 
-print(dict.profile_details)
-print(dict.profile_details.get('firstname','name not available'))
-
-print(emp.get_name())
+# print(dict.profile_details)
+# print(dict.profile_details.get('firstname','name not available'))
+#
+# print(emp.get_name())
 
 # wordGuessGame
 #
 # error
+#
+# filehandling
 
-filehandling
+print(useful_tools.get_file_extension('index.html'))
+
+print(useful_tools.roll_dice(100))
 
 
