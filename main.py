@@ -16,6 +16,7 @@ from Requirements import Requirements
 
 from paymentDetails import paymentDetails
 
+from emailslicer import email_silcer
 
 import filehandling
 
@@ -48,6 +49,9 @@ cal_bigO()
 cal_while_bigO()
 
 
+[user,email] = (email_silcer('kapilesh1@gmail.com'))
+
+print('Name : ' ,user, 'Email : ', email)
 # print(dict.profile_details)
 # print(dict.profile_details.get('firstname','name not available'))
 #
