@@ -76,4 +76,7 @@ from calculator import calculator
 #
 # emp1 = paymentDetails()
 # print(emp1.get_passport_details())
-import mystriousnum
+# import mystriousnum
+
+import stack
+
