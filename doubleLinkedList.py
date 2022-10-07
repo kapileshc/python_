@@ -39,3 +39,15 @@ head = front_insertion(head,30)
 head = front_insertion(head,40)
 
 front_traversal(head)
+back_traversal(tail)
+
+def deletion(head,tail):
+    if head.next == None:
+        return [None,None]
+    else:
+        head.next.prev = None
+        return head.next,tail
+
+head,tail = deletion(head,tail)
+
+front_traversal(head)
