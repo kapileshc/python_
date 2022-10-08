@@ -38,6 +38,15 @@ class item:
                      price= int(i.get('price')),
                      quantity=  i.get('quantity'))
 
+    @staticmethod
+    def is_integer(num):
+        if isinstance(num,float):
+            return num.is_integer()
+        elif isinstance(num,int):
+            return True
+        else:
+            return False
+
     def __repr__(self):
         return f'{self.product_name}'
 
