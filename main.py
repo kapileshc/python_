@@ -78,9 +78,11 @@ from calculator import calculator
 # print(emp1.get_passport_details())
 # import mystriousnum
 
-import stack
+# import stack
+#
+# import queue
+#
+# import doubleLinkedList
 
-import queue
-
-import doubleLinkedList
+import classinstance
 
