@@ -51,6 +51,14 @@ class item:
         return f'{self.product_name}'
 
 
+class phone(item):
+
+    def __init__(self,product_name,description,price,quantity,used_phone):
+        super().__init__(product_name,description,price,quantity)
+        self.used_phone = used_phone
+
+
+
 item1 = item('watch','Best build-in features to assist with the fitness',20,2)
 item2 = item('Laptop','Dell leading laptop producer',250000,1)
 item3 = item('mouse','zzebronics a best option',160,3)
@@ -69,3 +77,8 @@ print(item2.description)
 print(item2.edit_product_description('This laptop has 8 GB ram and 256 GB ROM'))
 print(item2.description)
 print(item1.apply_discount(150))
+
+phone1 = phone('nokia','oldest phone ever',1000,20,10)
+
+print(phone)
+print(phone1.quantity)
