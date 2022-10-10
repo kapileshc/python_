@@ -83,6 +83,7 @@ from calculator import calculator
 # import queue
 #
 # import doubleLinkedList
-
-import classinstance
+#
+# import classinstance
+import typingtestlogic
 
