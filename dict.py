@@ -1,9 +1,9 @@
+marks = {}.fromkeys(['English','Tamil','Maths','Science','Social'],0)
+print(marks)
 
+print(marks.keys())
+print(marks.items())
+print(marks.values())
 
-profile_details = {
-    'name':'kapilesh',
-    'designation':'Fullstack developer',
-    'city':'Chennai',
-    'passport':True,
-    'country':'India'
-}
+for item in marks.items():
+    print(item)
